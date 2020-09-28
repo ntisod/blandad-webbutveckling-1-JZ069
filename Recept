@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<title>Recept</title>
+<style>
+.text{
+width:40%;
+}
+.text1{
+width:50%;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+</style>
+</head>
+<body style="background-color:silver;">
+
+<h1 style="text-align:center; color:black;">Pannkakor</h1>
+
+<p class=text>Detta är ett recept på pannkakor för 8 personer, receptet är väldigt enkelt och snabbt att förbereda.</p>
+
+<h3><b>Ingredienser</b></h3>
+
+<ul>
+<li>Vetemjöl 3 dl</li>
+<li>Mjölk 6 dl</li>
+<li>Ägg 3</li>
+<li>Salt ½ tsk</li>
+<li>Smör 2 msk</li>
+</ul>
+
+
+<h3>Gör så här</h3>
+
+<ol>
+
+<li><p class=text>Bryt <strong>äggen</strong> i en skål, tillsätt <strong>vätemjöl</strong>, <strong>salt</strong> och lite <strong>mjölk</strong>, blanda tills en jämn massa utan klumpar erhålls.</li>
+
+<li><p class=text>Värm stekpannan och sprid den med en pensel: <strong>smör</strong>. Vi häller lite massa, sprider den i pannan och steker tunna pannkakor. Vi steker pannkakorna på båda sidor.</li>
+
+</ol>
+
+<h3>Klart!</h3>
+
+<p style="text-align:center;"><b>Jag tog receptet från den här <a href="https://www.arla.se/recept/pannkaka/">webbplatsen</a> eftersom jag behövde det för att göra läxa som jag fick från <a href="https://www.ntigymnasiet.se/sodertalje/">NTI Gymnasiet</a> och sidan kodades av mig själv.</b>
+<img class=center src="https://cdn-rdb.arla.com/Files/arla-se/3249856695/6aa9b774-9f87-458a-b7e5-7cf4781fca89.jpg?mode=crop&w=1269&h=715&ak=f525e733&hm=e78d4790" alt="Pannkaka" style="width:700px;height:400px;">
+</body>
+</html>
