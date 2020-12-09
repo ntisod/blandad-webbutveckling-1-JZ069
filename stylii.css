@@ -1,8 +1,23 @@
-img{
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    float: right;
-    width: 13cm;
+body{
+    font-family: Impact, Charcoal, sans-serif
+}
+
+nav{
+    color: blue;
+    background-color: gray;
+    border: 3px solid blue;
+    max-width: 3cm;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: orange;
+}
+
+a:active{
+    border-width: 13cm;
 }
 
