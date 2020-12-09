@@ -1,0 +1,56 @@
+
+/* Använd kommentar främst för att dela in koden */
+
+.lewo {
+    text-align: center;
+    border: 3px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    max-width: 800px;
+}
+
+
+.a {
+    border: 3px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    max-width: 300px;
+}
+
+.b22 {
+    border: 1px solid white;
+    border-radius: 4px; 
+    padding: 5px;
+}
+
+.b11 {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  float: right;
+}
+
+
+a{
+    color: blue;
+    background-color: gray;
+    border: 1px solid blue;
+    text-decoration: none;
+}
+
+.text{
+    max-width: 15cm;
+    color: black;
+    }
+
+.text1{
+   width:50%;
+   color: black;
+   }
+    
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    }
