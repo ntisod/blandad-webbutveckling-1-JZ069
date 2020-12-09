@@ -2,6 +2,10 @@ body{
     font-family: Impact, Charcoal, sans-serif
 }
 
+head{
+    background-color: grey;
+}
+
 nav{
     color: blue;
     background-color: gray;
