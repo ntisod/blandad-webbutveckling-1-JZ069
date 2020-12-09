@@ -25,7 +25,7 @@ width:50%;
 
 <p class=text>Detta är ett recept på pannkakor för 8 personer, receptet är väldigt enkelt och snabbt att förbereda.</p>
 
-<h3><b>Ingredienser</b></h3>
+<h3><strong>Ingredienser</strong></h3>
 
 <ul>
 <li>Vetemjöl 3 dl</li>
@@ -46,7 +46,7 @@ width:50%;
 
 </ol>
 
-<h3>Klart!</h3>
+<strong>Klart!</strong>
 
 <p style="text-align:center;"><b>Jag tog receptet från den här <a href="https://www.arla.se/recept/pannkaka/">webbplatsen</a> eftersom jag behövde det för att göra läxa som jag fick från <a href="https://www.ntigymnasiet.se/sodertalje/">NTI Gymnasiet</a> och sidan kodades av mig själv.</b>
 <img class=center src="https://cdn-rdb.arla.com/Files/arla-se/3249856695/6aa9b774-9f87-458a-b7e5-7cf4781fca89.jpg?mode=crop&w=1269&h=715&ak=f525e733&hm=e78d4790" alt="Pannkaka" style="width:700px;height:400px;">
