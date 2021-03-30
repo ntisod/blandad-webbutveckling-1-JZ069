@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE = edge">
+    <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+    <title>Formulär</title>
+</head>
+<body>
+    <form action = "">
+        <label for = "fname">Förnamn: </label><br>
+        <input type = "text" name="fname" id="fname"><br>
+        <label for = "lname">Efternamn: </label><br>
+        <input type="text" name="lname" id="lname"><br>
+        <label for="epost">E-postadress:</label><br>
+        <input type="text" name="epost" id="epost">
+    
+        <fieldset>
+            <legend>Engineering eller Software</legend>
+            <input type="radio" name="val" id="val1" value="Engineering">
+            <label for="val1">Engineering - ingår det Programmering 2, Fysik 2, Matematik 4 och Tillämpad programmering1</label><br>
+            <input type="radio" name="val" id="val2" value="Software">
+            <label for="val2">Software - ingår det Programmering 2, Digitalt skapande 1, Webbserverprgrammering 1, Tillämpad programmering1</label><br>
+        </fieldset>
+
+        <fieldset style="width: 400px;">
+            <legend>Individuella val</legend><br>
+
+            <fieldset>
+            <legend>Möjligt att välja för alla: </legend>
+            <label>Engelska 7</label><br>
+            <label>Idrott och hälsa 2</label><br>
+            <label>Entreprenöreskap</label><br>
+            <label>Modersmål</label><br> 
+            </fieldset>
+            <fieldset>
+            <legend>Endast för den som valt Engineering: </legend>
+            <label>Matematik 5</label><br>
+            <label>Digital skapande 1</label><br>
+            <label>Webbserverprogrammering 1</label><br>  
+            </fieldset>
+            <fieldset>
+            <legend>Endast för den som valt Software: </legend>
+            <label>Mattematik 4</label><br>
+            <label>Fysik 2</label><br>
+            <label>Digital skapande 2</label><br>
+            </fieldset>
+        </fieldset>
+
+        <fieldset style="width: 300px;">
+        <legend>Val 1</legend>
+            <label for ="select"></label>
+
+            <select name="val1" id="val1">
+            <option>Välj ämnet</option>
+            <option value ="Engelska">Engelska 7</option>
+            <option value ="Matte4">Matematik 4</option>
+            <option value ="Matte5">Matematik 5</option>
+            <option value ="digital1">Digital skapande 1</option>
+            <option value ="digital2">Digital skapande 2</option>
+            <option value ="fysik2">Fysik 2</option>
+            <option value ="le">Entreprenöreskap</option>
+            <option value ="Webb">Webbserverprogrammering 1</option>
+            <option value ="Idrott">Idrott och hälsa 2</option>
+            <option value ="Sprak">Modersmål</option>
+            
+            </select>
+        </fieldset>
+
+        <fieldset style="width: 300px;">
+            <legend>Val 2</legend>
+                <label for ="select"></label>
+    
+                <select name="val1" id="val1">
+                <option>Välj ämnet</option>
+                <option value ="Engelska">Engelska 7</option>
+                <option value ="Matte4">Matematik 4</option>
+                <option value ="Matte5">Matematik 5</option>
+                <option value ="digital1">Digital skapande 1</option>
+                <option value ="digital2">Digital skapande 2</option>
+                <option value ="fysik2">Fysik 2</option>
+                <option value ="le">Entreprenöreskap</option>
+                <option value ="Webb">Webbserverprogrammering 1</option>
+                <option value ="Idrott">Idrott och hälsa 2</option>
+                <option value ="Sprak">Modersmål</option>
+                
+                </select>
+        </fieldset>
+        <fieldset style="width: 300px;">
+                <legend>Val 3 (reserv)</legend>
+                    <label for ="select"></label>
+        
+                    <select name="val1" id="val1">
+                    <option>Välj ämnet</option>
+                    <option value ="Engelska">Engelska 7</option>
+                    <option value ="Matte4">Matematik 4</option>
+                    <option value ="Matte5">Matematik 5</option>
+                    <option value ="digital1">Digital skapande 1</option>
+                    <option value ="digital2">Digital skapande 2</option>
+                    <option value ="fysik2">Fysik 2</option>
+                    <option value ="le">Entreprenöreskap</option>
+                    <option value ="Webb">Webbserverprogrammering 1</option>
+                    <option value ="Idrott">Idrott och hälsa 2</option>
+                    <option value ="Sprak">Modersmål</option>
+                    
+                    </select>
+        </fieldset>
+        
+        <fieldset style="width: 350px;">
+            <label for = "name">Ifall du har valt modersmål anger du språket här. </label><br>
+            <input type = "text" name="name" id="name"><br>
+        </fieldset>
+        <br>
+            <input type="submit" value="Skicka in">
+    </form>
+</body>
